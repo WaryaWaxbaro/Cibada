@@ -1,0 +1,65 @@
+body{
+  font-family: Tahoma,Verdana,Segoe,sans-serif;
+}
+
+#printpdf{
+  height: 100%;
+  width: 100%;
+  padding: 1px;
+}
+
+#mainhead{
+  margin-right: 10px;
+  margin-bottom: 2px;
+  height: auto;
+  color: black;
+  text-align: center;
+  border: 1px solid black;
+}
+
+#tablecontainer{
+  width: 99%;
+  overflow-x: auto;
+  margin: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 3px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.buttoncont{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 12px 12px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  text-align: center;
+  position: absolute;
+}
+
+.button{
+  width: 25%
+  padding: 12px;
+  margin: 8px;
+  box-sizing: border-box;
+  border: 2px solid #33cc33;
+  border-radius: 4px;
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.button:hover{
+  background-color: #145214;
+  border: 2px solid #1f7a1f;
+  color: white;
+}

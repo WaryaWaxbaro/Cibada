@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="styles/style.css" type="text/css" rel="stylesheet" />
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="300">
+  <meta name="description" content="Prayers time Oulu Finland">
+  <meta name="keywords" content="Salaah, Oulu prayers, cibada, Oulu prayer timetable,
+  Oulu rukous, Oulu cibada, cibada.com, PSIY Oulu, waqtiga salaada oulu, somalida oulu, somalida Finland, salaad">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prayers Oulu</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128993014-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-128993014-1');
+  </script>
+</head>
+<body>
+  <div id="bg">
+    <div id="main">
+      <div id="mainheadfirst">
+        <h1 id="currenttime"></h1>
+        <h1 id="currenthijri"></h1>
+      </div>
+      <div id="container">
+        <div id="timecontent">
+          <div id="fajrcontainer">
+            <div id="fajrcontent">
+              <h2 class="textformat">Fajr</h2>
+              <h2 class="textformat" id="fajr"></h2>
+            </div>
+          </div>
+          <div id="fajrcontainer">
+            <div id="sunrisecontent">
+              <h2 class="textformat">Sunrise</h2>
+              <h2 class="textformat" id="sunrise"></h2>
+            </div>
+          </div>
+          <div id="fajrcontainer">
+            <div id="zuhrcontent">
+              <h2 class="textformat">Zuhr</h2>
+              <h2 class="textformat" id="zuhr"></h2>
+            </div>
+          </div>
+        </div>
+        <div id="timecontent2">
+          <div id="fajrcontainer">
+            <div id="asrcontent">
+              <h2 class="textformat">Asr</h2>
+              <h2 class="textformat" id="asr"></h2>
+            </div>
+          </div>
+          <div id="fajrcontainer">
+            <div id="magribcontent">
+              <h2 class="textformat">Magrib</h2>
+              <h2 class="textformat" id="magrib"></h2>
+            </div>
+          </div>
+          <div id="fajrcontainer">
+            <div id="ishacontent">
+              <h2 class="textformat">Isha</h2>
+              <h2 class="textformat" id="isha"></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="container">
+        <div id="mainhead">
+          <h1>Prayer time for the next 10 days</h1>
+        </div>
+        <div id="tablecontainer">
+          <table>
+            <tr>
+              <th>Date</th>
+              <th>Day</th>
+              <th>Fajr</th>
+              <th>Sunrise</th>
+              <th>Zuhr</th>
+              <th>Asr</th>
+              <th>Magrib</th>
+              <th>Isha</th>
+              <th>Hijri</th>
+            </tr>
+            <tr>
+              <td id="day1date"></td>
+              <td id="day1day"></td>
+              <td id="day1fajr"></td>
+              <td id="day1sunrise"></td>
+              <td id="day1zuhr"></td>
+              <td id="day1asr"></td>
+              <td id="day1magrib"></td>
+              <td id="day1isha"></td>
+              <td id="day1hijri"></td>
+            </tr>
+            <tr>
+              <td id="day2date"></td>
+              <td id="day2day"></td>
+              <td id="day2fajr"></td>
+              <td id="day2sunrise"></td>
+              <td id="day2zuhr"></td>
+              <td id="day2asr"></td>
+              <td id="day2magrib"></td>
+              <td id="day2isha"></td>
+              <td id="day2hijri"></td>
+            </tr>
+            <tr>
+              <td id="day3date"></td>
+              <td id="day3day"></td>
+              <td id="day3fajr"></td>
+              <td id="day3sunrise"></td>
+              <td id="day3zuhr"></td>
+              <td id="day3asr"></td>
+              <td id="day3magrib"></td>
+              <td id="day3isha"></td>
+              <td id="day3hijri"></td>
+            </tr>
+            <tr>
+              <td id="day4date"></td>
+              <td id="day4day"></td>
+              <td id="day4fajr"></td>
+              <td id="day4sunrise"></td>
+              <td id="day4zuhr"></td>
+              <td id="day4asr"></td>
+              <td id="day4magrib"></td>
+              <td id="day4isha"></td>
+              <td id="day4hijri"></td>
+            </tr>
+            <tr>
+              <td id="day5date"></td>
+              <td id="day5day"></td>
+              <td id="day5fajr"></td>
+              <td id="day5sunrise"></td>
+              <td id="day5zuhr"></td>
+              <td id="day5asr"></td>
+              <td id="day5magrib"></td>
+              <td id="day5isha"></td>
+              <td id="day5hijri"></td>
+            </tr>
+            <tr>
+              <td id="day6date"></td>
+              <td id="day6day"></td>
+              <td id="day6fajr"></td>
+              <td id="day6sunrise"></td>
+              <td id="day6zuhr"></td>
+              <td id="day6asr"></td>
+              <td id="day6magrib"></td>
+              <td id="day6isha"></td>
+              <td id="day6hijri"></td>
+            </tr>
+            <tr>
+              <td id="day7date"></td>
+              <td id="day7day"></td>
+              <td id="day7fajr"></td>
+              <td id="day7sunrise"></td>
+              <td id="day7zuhr"></td>
+              <td id="day7asr"></td>
+              <td id="day7magrib"></td>
+              <td id="day7isha"></td>
+              <td id="day7hijri"></td>
+            </tr>
+            <tr>
+              <td id="day8date"></td>
+              <td id="day8day"></td>
+              <td id="day8fajr"></td>
+              <td id="day8sunrise"></td>
+              <td id="day8zuhr"></td>
+              <td id="day8asr"></td>
+              <td id="day8magrib"></td>
+              <td id="day8isha"></td>
+              <td id="day8hijri"></td>
+            </tr>
+            <tr>
+              <td id="day9date"></td>
+              <td id="day9day"></td>
+              <td id="day9fajr"></td>
+              <td id="day9sunrise"></td>
+              <td id="day9zuhr"></td>
+              <td id="day9asr"></td>
+              <td id="day9magrib"></td>
+              <td id="day9isha"></td>
+              <td id="day9hijri"></td>
+            </tr>
+            <tr>
+              <td id="day10date"></td>
+              <td id="day10day"></td>
+              <td id="day10fajr"></td>
+              <td id="day10sunrise"></td>
+              <td id="day10zuhr"></td>
+              <td id="day10asr"></td>
+              <td id="day10magrib"></td>
+              <td id="day10isha"></td>
+              <td id="day10hijri"></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div id="mainhead">
+          <h1>Monthly timetables</h1>
+        </div>
+      <div class="navcontainer">
+        <div class="topnav">
+          <ul>
+            <li><a href="january.html">January</a></li>
+            <li><a href="february.html">February</a></li>
+            <li><a href="march.html">March</a></li>
+            <li><a href="april.html">April</a></li>
+            <li><a href="may.html">May</a></li>
+            <li><a href="june.html">June</a></li>
+          </ul>
+          <ul>
+            <li><a href="july.html">July</a></li>
+            <li><a href="august.html">August</a></li>
+            <li><a href="september.html">September</a></li>
+            <li><a href="october.html">October</a></li>
+            <li><a href="november.html">November</a></li>
+            <li><a href="december.html">December</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="container">
+        <div id="mainheadfooter">
+          <footer>Prayers time on this website are based on ISLAMIC SOCIETY OF NORTHERN FINLAND's monthly prayer timetables.
+          </footer>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script/hijricalendar-kuwaiti.js"></script>
+  <script src="script/waqtiga.js"></script>
+</body>
+</html>
